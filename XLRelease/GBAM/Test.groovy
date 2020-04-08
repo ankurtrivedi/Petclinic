@@ -1,6 +1,6 @@
 // Exported from:        http://AnkurTrvedisMBP.fios-router.home:5516/#/templates/Foldercf72d11d46c240ed8e05f1bb30b40683-Release79e11b85eb3e40a9be15a61115583e1c/releasefile
 // XL Release version:   8.5.3
-// Date created:         Wed Apr 08 11:43:22 EDT 2020
+// Date created:         Wed Apr 08 12:08:04 EDT 2020
 
 xlr {
   template('Test') {
@@ -15,6 +15,9 @@ xlr {
             
           }
           manual('test') {
+            
+          }
+          manual('New Test') {
             
           }
         }
