@@ -1,0 +1,6 @@
+--- 
+variables: 
+  - 
+    key: testYamlStr
+    type: xlrelease.StringVariable
+    value: greetings
