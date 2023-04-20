@@ -1,1 +1,15 @@
 1fea470cf5f1454c9391da5e9e5e4571-r
+
+
+Tanzu approach:
+1. create account -https://network.pivotal.io/products/pcfdev
+2. Goto  edit profile and generate the token
+3. download pivnet cli command
+         wget https://github.com/pivotal-cf/pivnet-cli/releases/download/v3.0.1/pivnet-linux-amd64-3.0.1
+4. login with token
+    ./pivnet-linux-amd64-3.0.1 login --api-token='XXXXXXXX'
+5. Download pcfdev
+     ./pivnet download-product-files --product-slug='pcfdev' --release-version='v1.2.0 for PAS 2.4.4' --product-file-id=349574
+6. cf install-plugin cfdev (window zip file)
+7. cf dev start (pathof iso image)
+8. Succesfully create the PCF account.
